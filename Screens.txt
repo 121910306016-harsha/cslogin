@@ -1,0 +1,57 @@
+---WorkerDashBoard Screen---
+
+    addReport()
+
+    getWorkerDetails():
+        waddress{
+            wReportIds : [
+                    111111, click here -> then below information 
+                    111116,
+                    111112]
+            }
+
+    getReportDetails():
+        ReportId: getReport()
+                        {
+                            ('climate response', 
+                            'it is windy and cool', 
+                            '0x0000000000000000000000000000000000000000', 
+                            0, 
+                            0, 
+                            ['0xF07B5318CB0eA4FC96a6bb1d7CEA88E7B49d8Ff2']
+                            )
+                        }
+
+
+----- RequestorDashBoard Screen -----
+     
+    addTask()
+
+    getrequestorDetails():
+        requestorAddress{
+            taskIds:[
+                111, click here -> then below information 
+                119,
+                121]
+        }
+    
+    getTaskDetails():
+        TaskId: getTask()
+                    {
+                        ('taskname'),
+                        ('tDescription),
+                        ([re])
+                    }
+
+
+
+
+-----Review Tab-----
+    reportIds, reportName, avgrating, totalReviews[
+        11111 , Climate report , 3, 2  reviewNowbutton AllReviewsButton
+        111116
+        111112
+        ]
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>CrowdSourcing Platform</title>
+        <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <header>
+            <nav>
+            </nav>
+    </header>
+    <body>
+        <!DOCTYPE html>
+        <html>
+            
+            <head>
+                <title>CrowdSourcing Platform</title>
+                <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
+                <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700" rel="stylesheet"> 
+                <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> 
+                <!-- Bootstrap CSS -->
+               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+               <link rel="stylesheet" href="style.css">
+                <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+            </head>
+            
+            <header>
+                    <nav>
+                    </nav>
+            </header>
+            <body>
+                <ul>
+                    <li><a><img src="https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/323/Google_Crowdsource_logo-512.png" alt="logo"width="40px" height="30px"></a></li>
+                    <li><a style="color: white;">CROWD SOURCEING PLATFORM</a></li>
+                    <!-- <li style="float:right"><a class="active" href="#about">About</a></li> -->
+                  </ul>
+                  <form action="/auth" method="POST">
+                  <div class="container">
+                    <div class="login">
+                        <div class="row">
+                            <h2>Sign Up</h2>
+                            <div class="col-md-12">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Ex. youremail@mail.com">
+                                <br>
+                                <label for="password">UserType</label>
+                                <select class="form-control"  id="type" name="type">
+                                    <option value="requestor">Requestor</option>
+                                    <option value="worker">Worker</option>
+                                  </select>
+                            </div>
+                            
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="reset" id="reset" value="Reset" class="btn btn-outline-primary btn-form">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="submit" id="register" value="Signup" class="btn btn-outline-success btn-form">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+    </body>
+
+    <footer>
+     
+    </footer>
+
+</html>

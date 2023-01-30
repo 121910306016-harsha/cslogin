@@ -1,0 +1,53 @@
+body{
+	margin:0;
+	color:#6a6f8c;
+	background:#c8c8c8;
+    background-image: url("https://hbr.org/resources/images/article_assets/2015/05/MAY15_08_crowdsourcing.png");
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  .login {
+    background-color: #fff;
+    width: 40%;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding: 60px;
+    border-left: 5px solid #009688;
+    box-shadow: 0px 0px 0px 0px #3f51b5;
+}
+
+.login>.row>h2 {
+    margin: auto;
+}
+
+.btn-form {
+    width: 100%;
+    margin-top: 20px;
+}
+  
+  li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    size:larger;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
